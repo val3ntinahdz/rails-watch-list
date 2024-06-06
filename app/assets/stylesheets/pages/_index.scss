@@ -1,2 +1,37 @@
 // Import page-specific CSS files here.
 @import "home";
+h1 {
+  font-family: "Roboto Mono", monospace;
+  color: #eeebeb;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.banner-image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.90;
+}
+
+.card-category {
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-category img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+
+.card-category-name {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
