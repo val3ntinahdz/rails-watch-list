@@ -1,0 +1,16 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 400px; // Adjust the height as needed
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.banner-text {
+  position: absolute;
+  text-align: center;
+}
