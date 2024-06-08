@@ -1,8 +1,5 @@
 <section class="banner" style="background-image: url('<%= image_path("atcine.jpg") %>');">
   <div class="banner-text">
     <h1><%= @list.name %></h1>
-    <% if @list.present? && @list.persisted? %>
-      <%= link_to "Delete", list_path(@list.id), data: {turbo_method: :delete, turbo_confirmation: "Estas seguro/a que quieres borrar este registro?"} %>
-    <% end %>
   </div>
 </section>
